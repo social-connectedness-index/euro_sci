@@ -1,0 +1,52 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+            &\multicolumn{5}{c}{Dependent Variable: log(SCI)}         &                     &                     &                     &                     \\
+            &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         \\
+\hline
+log(Distance in KM)&      -0.608\sym{***}&      -0.600\sym{***}&      -0.605\sym{***}&      -0.604\sym{***}&      -0.542\sym{***}\\
+            &     (0.039)         &     (0.038)         &     (0.038)         &     (0.038)         &     (0.038)         \\
+            &                     &                     &                     &                     &                     \\
+Border Country&       0.376\sym{***}&       0.355\sym{***}&       0.346\sym{***}&       0.328\sym{***}&       0.255\sym{***}\\
+            &     (0.047)         &     (0.046)         &     (0.046)         &     (0.046)         &     (0.045)         \\
+            &                     &                     &                     &                     &                     \\
+Both Czechoslovakia&                     &       3.617\sym{***}&       3.617\sym{***}&       3.627\sym{***}&       3.048\sym{***}\\
+            &                     &     (0.183)         &     (0.184)         &     (0.183)         &     (0.190)         \\
+            &                     &                     &                     &                     &                     \\
+Both Yugoslavia&                     &       3.464\sym{***}&       3.462\sym{***}&       3.475\sym{***}&       2.976\sym{***}\\
+            &                     &     (0.141)         &     (0.141)         &     (0.141)         &     (0.144)         \\
+            &                     &                     &                     &                     &                     \\
+Both West Germany&                     &       0.209\sym{***}&       0.207\sym{***}&       0.217\sym{***}&       0.206\sym{***}\\
+            &                     &     (0.040)         &     (0.040)         &     (0.039)         &     (0.040)         \\
+            &                     &                     &                     &                     &                     \\
+Both East Germany&                     &       1.380\sym{***}&       1.379\sym{***}&       1.362\sym{***}&       1.426\sym{***}\\
+            &                     &     (0.088)         &     (0.087)         &     (0.089)         &     (0.090)         \\
+            &                     &                     &                     &                     &                     \\
+Both Soviet Union&                     &       1.906\sym{***}&       1.899\sym{***}&       1.908\sym{***}&       2.039\sym{***}\\
+            &                     &     (0.072)         &     (0.073)         &     (0.073)         &     (0.070)         \\
+            &                     &                     &                     &                     &                     \\
+Both United Kingdom 1960&                     &                     &       0.992\sym{***}&       0.992\sym{***}&       0.971\sym{***}\\
+            &                     &                     &     (0.088)         &     (0.088)         &     (0.093)         \\
+            &                     &                     &                     &                     &                     \\
+Both Germany 1930&                     &                     &                     &       0.407\sym{***}&       0.118\sym{*}  \\
+            &                     &                     &                     &     (0.098)         &     (0.067)         \\
+            &                     &                     &                     &                     &                     \\
+Both Austro-Hungarian Empire 1900&                     &                     &                     &                     &       0.866\sym{***}\\
+            &                     &                     &                     &                     &     (0.114)         \\
+            &                     &                     &                     &                     &                     \\
+Both German Empire 1900&                     &                     &                     &                     &       0.461\sym{***}\\
+            &                     &                     &                     &                     &     (0.075)         \\
+            &                     &                     &                     &                     &                     \\
+Both United Sweden-Norway&                     &                     &                     &                     &       1.996\sym{***}\\
+            &                     &                     &                     &                     &     (0.114)         \\
+            &                     &                     &                     &                     &                     \\
+\hline
+Table 1 Controls&           Y         &           Y         &           Y         &           Y         &           Y         \\
+NUTS2 FEs   &           Y         &           Y         &           Y         &           Y         &           Y         \\
+Indiv. Same Country FEs&           Y         &           Y         &           Y         &           Y         &           Y         \\
+Number of Observations&      75,900         &      75,900         &      75,900         &      75,900         &      75,900         \\
+$R^2$       &       0.787         &       0.794         &       0.794         &       0.795         &       0.803         \\
+\hline\hline
+\end{tabular}
+}

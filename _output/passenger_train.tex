@@ -1,0 +1,29 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{8}{c}}
+\hline\hline
+            &\multicolumn{8}{c}{Dependent Variable: log(Passenger Rail Trips)}         &                     &                     &                     &                     &                     &                     &                     \\
+            &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         &\multicolumn{1}{c}{(7)}         &\multicolumn{1}{c}{(8)}         \\
+            & Most recent         & Most recent         & Most recent         & Most recent         & Most recent         &        2015         &        2010         &        2005         \\
+\hline
+log(SocialConnectedness)&       1.726\sym{***}&       1.567\sym{***}&       1.482\sym{***}&       1.383\sym{***}&       1.455\sym{***}&       1.301\sym{***}&       1.268\sym{***}&       1.332\sym{***}\\
+            &     (0.054)         &     (0.080)         &     (0.099)         &     (0.115)         &     (0.098)         &     (0.054)         &     (0.071)         &     (0.089)         \\
+            &                     &                     &                     &                     &                     &                     &                     &                     \\
+log(Distance in KM)&                     &      -0.277         &       0.265         &       0.155         &       0.229         &       0.153         &       0.781\sym{***}&       0.204         \\
+            &                     &     (0.181)         &     (0.346)         &     (0.348)         &     (0.264)         &     (0.154)         &     (0.196)         &     (0.238)         \\
+            &                     &                     &                     &                     &                     &                     &                     &                     \\
+log(Rail Time in Mins)&                     &                     &      -0.580         &       0.018         &       0.136         &      -1.055\sym{***}&      -1.028\sym{***}&       0.072         \\
+            &                     &                     &     (0.446)         &     (0.532)         &     (0.536)         &     (0.187)         &     (0.247)         &     (0.485)         \\
+            &                     &                     &                     &                     &                     &                     &                     &                     \\
+log(Drive Time in Mins)&                     &                     &      -0.206         &      -0.445\sym{***}&      -0.455\sym{***}&       0.000         &      -0.632\sym{***}&      -0.439\sym{***}\\
+            &                     &                     &     (0.190)         &     (0.152)         &     (0.126)         &     (0.072)         &     (0.163)         &     (0.124)         \\
+            &                     &                     &                     &                     &                     &                     &                     &                     \\
+\hline
+NUTS2 FEs   &           Y         &           Y         &           Y         &           Y         &           Y         &           Y         &           Y         &           Y         \\
+All Country Pair FEs&           N         &           N         &           N         &           Y         &           Y         &           Y         &           Y         &           Y         \\
+Table 1 Controls&           N         &           N         &           N         &           N         &           Y         &           Y         &           Y         &           Y         \\
+Number of Observations&      54,692         &      54,692         &      53,606         &      28,390         &      25,293         &       8,504         &      15,907         &      28,803         \\
+pseudo-$R^2$&       0.964         &       0.965         &       0.966         &       0.973         &       0.975         &       0.981         &       0.981         &       0.976         \\
+\hline\hline
+\end{tabular}
+}
