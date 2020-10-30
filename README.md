@@ -1,6 +1,6 @@
 # Replication code for ''The Determinants of Social Connectedness in Europe'' and Online Appendix
 
-This repository includes the replication code for the paper [The Determinants of Social Connectedness in Europe](https://doi.org/10.1007/978-3-030-60975-7_1) and the [Online Appendix with additional results](https://arxiv.org/abs/2007.12177}). You can find additional example code and shapefiles for using the SCI data at: <https://github.com/social-connectedness-index/example-scripts>.
+This repository includes the replication code for the paper [The Determinants of Social Connectedness in Europe](https://doi.org/10.1007/978-3-030-60975-7_1) and the [Online Appendix with additional results](https://arxiv.org/abs/2007.12177). You can find additional example code and shapefiles for using the SCI data at: <https://github.com/social-connectedness-index/example-scripts>.
 
 When using this repository, please cite the original paper.
 
