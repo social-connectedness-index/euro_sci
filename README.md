@@ -11,7 +11,7 @@ NOTE 2: This repository uses [git-lfs](https://git-lfs.github.com/) for versioni
 ## Repository Structure
 
 All results can be generated from running three scripts in the master directory: 
-1. `1_setup_map_andSCI.R` downloads administrative shapefiles from (c) EuroGeographics and the [Facebook SCI data](https://data.humdata.org/dataset/social-connectedness-index?) from the Humanitarian Data Exchange. 
+1. `1_setup_map_and_SCI.R` downloads administrative shapefiles from (c) EuroGeographics and the [Facebook SCI data](https://data.humdata.org/dataset/social-connectedness-index?) from the Humanitarian Data Exchange. 
 2. `2_run_all_R_analysis_scripts.R` produces a number of results in R.
 3. `3_run_all_stata_analysis_scripts.do` produces a number of results in Stata.
 
